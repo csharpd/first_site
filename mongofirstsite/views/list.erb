@@ -1,0 +1,23 @@
+<table class='table'>
+  <thead>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Ingredients</th>
+        <th>Tag</th>
+        <th>Contributor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @recipes.each do |r| %>
+      <tr>
+        <td><%= r.name %></td>
+        <td><%= r.description %></td>
+        <td><%= r.ingredients %></td>
+        <td><%= r.tag %></td>
+        <td><%= r.contributor %>
+        </td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
