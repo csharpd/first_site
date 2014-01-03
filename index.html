@@ -53,7 +53,6 @@ p {
   text-align: justify;
   position: absolute;
   bottom: 0;
-  margin: 0;
   height: 30px;
   transition: height .5s;
   -webkit-transition: height .5s;
@@ -107,7 +106,16 @@ small {
 }
 
 </style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-46838737-1', 'chezjustin.com');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 <body>
@@ -118,17 +126,17 @@ small {
 <h2>Recreate the dishes of a culinary King</h2>
 
 <div class="first">
-  <p>welsh onion soko <span class="price">Winter</span><br />
+  <p>welsh onion soko <span class="price"><u>Description</ul></span><br />
   <small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
 </div>
 
 <div class="second show-description">
-  <p>pastrami boudin tongue <span class="price">Summer</span><br />
+  <p>pastrami boudin tongue <span class="price"><u>Description</ul></span><br />
   <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
 </div>
   
 <div class="dessert">
-  <p>fruitcake marzipan pudding dragee <span class="price">Christmas</span><br />
+  <p>fruitcake marzipan pudding dragee <span class="price"><u>Description</ul></span><br />
   <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
 </div>
 
@@ -138,4 +146,6 @@ small {
   });
 </script>
 
+
 </body>
+
